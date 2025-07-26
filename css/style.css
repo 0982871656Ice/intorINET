@@ -79,12 +79,8 @@ h3 {
   border-radius: 50%;
   border: 4px solid #3498db;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.profile-image:hover {
-  transform: scale(1.05);
 }
 
 table {
@@ -97,16 +93,16 @@ table {
 
 th {
   background-color: #f5a8d2;
-  color: white;
+  color: rgb(99, 0, 54);
   padding: 15px;
   text-align: center;
   font-weight: bold;
-  border: 1px solid #ffe0f7;
+  border: 1px solid #5c0040;
 }
 
 td {
   padding: 12px 15px;
-  border: 1px solid #f5daf1;
+  border: 1px solid #01003f;
   text-align: center;
 }
 
@@ -119,7 +115,7 @@ tr:hover {
 }
 
 .student-info {
-  background-color: #fcd1f2;
+  background-color: #be2256;
   color: white;
   padding: 20px;
   border-radius: 8px;
@@ -128,18 +124,18 @@ tr:hover {
 }
 
 .student-info h3 {
-  color: white;
+  color: rgb(255, 253, 254);
   margin: 5px 0;
 }
 
 a {
-  color: #ffcdf4;
+  color: #fff6fd;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #f7cbfd;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -148,7 +144,7 @@ a:hover {
   padding: 15px;
   border-radius: 8px;
   margin: 15px 0;
-  border-left: 4px solid #f1a9c591;
+  border-left: 4px solid #fffbfd91;
 }
 
 .nav-links {
@@ -167,7 +163,4 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 
-.nav-links a:hover {
-  background-color: #ffc9d9;
-  text-decoration: none;
-}
+
