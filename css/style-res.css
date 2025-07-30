@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: rgb(250, 172, 208);
+  color: rgb(59, 14, 37);
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(255, 175, 219);
+}
+
+.navbar a {
+  color: rgb(247, 164, 168);
+  padding: 14 px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 164, 195);
+  color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: rgb(172, 134, 155);
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: rgb(255, 208, 222);
+    padding: 20px;
+}
+.fakeimg {
+    background-color: #ffe0e9;
+    width: 100%;
+    padding: 20PX;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #f8a7b5;
+}
+@medai screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+    
+}
